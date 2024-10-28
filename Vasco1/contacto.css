@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+ul{
+    text-align: center;
+    padding: 15px 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+aside{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+}
+#Pricipal{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    background: #357;
+    float: left;
+}
+
+#whatsapp{
+   z-index: 1;
+    width: 50px;
+    height: auto;
+    margin-top: 600px;
+    margin-left: 1350px;
+
+}
+#contacto{
+    background: white;
+    margin-top: 125px;
+    position: absolute;
+    width: 100%;
+    float: left;
+    height: 60px;
+    color: black;
+    text-align: center;
+}
+h1{
+    margin-top: 20px;
+    font-size: 30px;
+}

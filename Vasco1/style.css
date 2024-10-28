@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+ul{
+    text-align: center;
+    padding: 15px 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(102, 255, 0);
+}
+aside{
+    width: 100%;
+    height: 60%;
+}
+#img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    z-index: -2;
+}
+.img{
+    width: 100%;
+    height: 95vh;
+    opacity: 0.4;
+}
+#principal{
+    width: 100%;
+}
+h1{
+    color: white;
+    padding: 200px 0px;
+}
+button{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.active{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;    
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    box-shadow: 0px 0px 10px white;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+#foto{
+    width: 90%;
+    height: 30%;
+    padding: 50px 100px;
+    float: left;
+}
+.img1{
+    width: 25%;
+    height: 15%;
+    border-radius: 20px;
+}
+#info{
+    background: black;
+    width: 55%;
+    height: 450px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+}
+.Vasco{
+    font-size: 25px;
+
+}
+.texto{
+    font-weight: 100;
+}

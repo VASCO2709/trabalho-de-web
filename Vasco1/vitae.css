@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+ul{
+    text-align: center;
+    padding: 15px 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    font-size: 18px;
+}
+a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(60, 255, 0);
+}
+aside{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+}
+#Pricipal{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    background: blue;
+    float: left;
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#cv{
+    margin-top: 100px;
+    background: black;
+    height: 500px;
+    width: 100%;
+    float: left;
+    opacity: 1;
+}
+
+table{
+    margin-top: 25px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+tr{
+    width: 100%;
+
+}
+th{
+    width: 100%;
+    padding-bottom: 20px;
+}
+td{
+    border: 1px solid white;
+    color: white;
+    width: 48%;
+    float: left;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+#img{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 93vh;
+}
+.img{
+    background-size:cover;
+    width: 100%;
+    height: 93vh;
+    opacity: 0;
+}
+
+#Facebook{
+   z-index: 1;
+    width: 50px;
+    height: auto;
+    margin-top: 600px;
+    margin-left: 1350px;
+
+}
+#cem{
+    width: 99.2%;
+}
